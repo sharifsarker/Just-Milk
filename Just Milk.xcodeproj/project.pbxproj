@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0CDF467254D4A1F00A87982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CDF466254D4A1F00A87982 /* AppDelegate.swift */; };
+		F0CDF469254D4A1F00A87982 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CDF468254D4A1F00A87982 /* SceneDelegate.swift */; };
+		F0CDF46B254D4A1F00A87982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CDF46A254D4A1F00A87982 /* ViewController.swift */; };
+		F0CDF46E254D4A1F00A87982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CDF46C254D4A1F00A87982 /* Main.storyboard */; };
+		F0CDF470254D4A2000A87982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CDF46F254D4A2000A87982 /* Assets.xcassets */; };
+		F0CDF473254D4A2000A87982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CDF471254D4A2000A87982 /* LaunchScreen.storyboard */; };
+		F0CDF47E254D4A2100A87982 /* Just_MilkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CDF47D254D4A2000A87982 /* Just_MilkTests.swift */; };
+		F0CDF489254D4A2100A87982 /* Just_MilkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CDF488254D4A2100A87982 /* Just_MilkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0CDF47A254D4A2000A87982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0CDF45B254D4A1F00A87982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0CDF462254D4A1F00A87982;
+			remoteInfo = "Just Milk";
+		};
+		F0CDF485254D4A2100A87982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0CDF45B254D4A1F00A87982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0CDF462254D4A1F00A87982;
+			remoteInfo = "Just Milk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0CDF463254D4A1F00A87982 /* Just Milk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just Milk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CDF466254D4A1F00A87982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0CDF468254D4A1F00A87982 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0CDF46A254D4A1F00A87982 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0CDF46D254D4A1F00A87982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0CDF46F254D4A2000A87982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0CDF472254D4A2000A87982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0CDF474254D4A2000A87982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0CDF479254D4A2000A87982 /* Just MilkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Just MilkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CDF47D254D4A2000A87982 /* Just_MilkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_MilkTests.swift; sourceTree = "<group>"; };
+		F0CDF47F254D4A2100A87982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0CDF484254D4A2100A87982 /* Just MilkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Just MilkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CDF488254D4A2100A87982 /* Just_MilkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_MilkUITests.swift; sourceTree = "<group>"; };
+		F0CDF48A254D4A2100A87982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0CDF460254D4A1F00A87982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CDF476254D4A2000A87982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CDF481254D4A2100A87982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0CDF45A254D4A1F00A87982 = {
+			isa = PBXGroup;
+			children = (
+				F0CDF465254D4A1F00A87982 /* Just Milk */,
+				F0CDF47C254D4A2000A87982 /* Just MilkTests */,
+				F0CDF487254D4A2100A87982 /* Just MilkUITests */,
+				F0CDF464254D4A1F00A87982 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0CDF464254D4A1F00A87982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0CDF463254D4A1F00A87982 /* Just Milk.app */,
+				F0CDF479254D4A2000A87982 /* Just MilkTests.xctest */,
+				F0CDF484254D4A2100A87982 /* Just MilkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0CDF465254D4A1F00A87982 /* Just Milk */ = {
+			isa = PBXGroup;
+			children = (
+				F0CDF466254D4A1F00A87982 /* AppDelegate.swift */,
+				F0CDF468254D4A1F00A87982 /* SceneDelegate.swift */,
+				F0CDF46A254D4A1F00A87982 /* ViewController.swift */,
+				F0CDF46C254D4A1F00A87982 /* Main.storyboard */,
+				F0CDF46F254D4A2000A87982 /* Assets.xcassets */,
+				F0CDF471254D4A2000A87982 /* LaunchScreen.storyboard */,
+				F0CDF474254D4A2000A87982 /* Info.plist */,
+			);
+			path = "Just Milk";
+			sourceTree = "<group>";
+		};
+		F0CDF47C254D4A2000A87982 /* Just MilkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0CDF47D254D4A2000A87982 /* Just_MilkTests.swift */,
+				F0CDF47F254D4A2100A87982 /* Info.plist */,
+			);
+			path = "Just MilkTests";
+			sourceTree = "<group>";
+		};
+		F0CDF487254D4A2100A87982 /* Just MilkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0CDF488254D4A2100A87982 /* Just_MilkUITests.swift */,
+				F0CDF48A254D4A2100A87982 /* Info.plist */,
+			);
+			path = "Just MilkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0CDF462254D4A1F00A87982 /* Just Milk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CDF48D254D4A2100A87982 /* Build configuration list for PBXNativeTarget "Just Milk" */;
+			buildPhases = (
+				F0CDF45F254D4A1F00A87982 /* Sources */,
+				F0CDF460254D4A1F00A87982 /* Frameworks */,
+				F0CDF461254D4A1F00A87982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Just Milk";
+			productName = "Just Milk";
+			productReference = F0CDF463254D4A1F00A87982 /* Just Milk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0CDF478254D4A2000A87982 /* Just MilkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CDF490254D4A2100A87982 /* Build configuration list for PBXNativeTarget "Just MilkTests" */;
+			buildPhases = (
+				F0CDF475254D4A2000A87982 /* Sources */,
+				F0CDF476254D4A2000A87982 /* Frameworks */,
+				F0CDF477254D4A2000A87982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0CDF47B254D4A2000A87982 /* PBXTargetDependency */,
+			);
+			name = "Just MilkTests";
+			productName = "Just MilkTests";
+			productReference = F0CDF479254D4A2000A87982 /* Just MilkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0CDF483254D4A2100A87982 /* Just MilkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CDF493254D4A2100A87982 /* Build configuration list for PBXNativeTarget "Just MilkUITests" */;
+			buildPhases = (
+				F0CDF480254D4A2100A87982 /* Sources */,
+				F0CDF481254D4A2100A87982 /* Frameworks */,
+				F0CDF482254D4A2100A87982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0CDF486254D4A2100A87982 /* PBXTargetDependency */,
+			);
+			name = "Just MilkUITests";
+			productName = "Just MilkUITests";
+			productReference = F0CDF484254D4A2100A87982 /* Just MilkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0CDF45B254D4A1F00A87982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F0CDF462254D4A1F00A87982 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F0CDF478254D4A2000A87982 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F0CDF462254D4A1F00A87982;
+					};
+					F0CDF483254D4A2100A87982 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F0CDF462254D4A1F00A87982;
+					};
+				};
+			};
+			buildConfigurationList = F0CDF45E254D4A1F00A87982 /* Build configuration list for PBXProject "Just Milk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0CDF45A254D4A1F00A87982;
+			productRefGroup = F0CDF464254D4A1F00A87982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0CDF462254D4A1F00A87982 /* Just Milk */,
+				F0CDF478254D4A2000A87982 /* Just MilkTests */,
+				F0CDF483254D4A2100A87982 /* Just MilkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0CDF461254D4A1F00A87982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CDF473254D4A2000A87982 /* LaunchScreen.storyboard in Resources */,
+				F0CDF470254D4A2000A87982 /* Assets.xcassets in Resources */,
+				F0CDF46E254D4A1F00A87982 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CDF477254D4A2000A87982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CDF482254D4A2100A87982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0CDF45F254D4A1F00A87982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CDF46B254D4A1F00A87982 /* ViewController.swift in Sources */,
+				F0CDF467254D4A1F00A87982 /* AppDelegate.swift in Sources */,
+				F0CDF469254D4A1F00A87982 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CDF475254D4A2000A87982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CDF47E254D4A2100A87982 /* Just_MilkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CDF480254D4A2100A87982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CDF489254D4A2100A87982 /* Just_MilkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0CDF47B254D4A2000A87982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0CDF462254D4A1F00A87982 /* Just Milk */;
+			targetProxy = F0CDF47A254D4A2000A87982 /* PBXContainerItemProxy */;
+		};
+		F0CDF486254D4A2100A87982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0CDF462254D4A1F00A87982 /* Just Milk */;
+			targetProxy = F0CDF485254D4A2100A87982 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0CDF46C254D4A1F00A87982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CDF46D254D4A1F00A87982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0CDF471254D4A2000A87982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CDF472254D4A2000A87982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0CDF48B254D4A2100A87982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0CDF48C254D4A2100A87982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0CDF48E254D4A2100A87982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T98GJJJ9WC;
+				INFOPLIST_FILE = "Just Milk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sharif.Just-Milk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0CDF48F254D4A2100A87982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T98GJJJ9WC;
+				INFOPLIST_FILE = "Just Milk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sharif.Just-Milk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0CDF491254D4A2100A87982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T98GJJJ9WC;
+				INFOPLIST_FILE = "Just MilkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sharif.Just-MilkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Just Milk.app/Just Milk";
+			};
+			name = Debug;
+		};
+		F0CDF492254D4A2100A87982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T98GJJJ9WC;
+				INFOPLIST_FILE = "Just MilkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sharif.Just-MilkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Just Milk.app/Just Milk";
+			};
+			name = Release;
+		};
+		F0CDF494254D4A2100A87982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T98GJJJ9WC;
+				INFOPLIST_FILE = "Just MilkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sharif.Just-MilkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Just Milk";
+			};
+			name = Debug;
+		};
+		F0CDF495254D4A2100A87982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T98GJJJ9WC;
+				INFOPLIST_FILE = "Just MilkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sharif.Just-MilkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Just Milk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0CDF45E254D4A1F00A87982 /* Build configuration list for PBXProject "Just Milk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CDF48B254D4A2100A87982 /* Debug */,
+				F0CDF48C254D4A2100A87982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0CDF48D254D4A2100A87982 /* Build configuration list for PBXNativeTarget "Just Milk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CDF48E254D4A2100A87982 /* Debug */,
+				F0CDF48F254D4A2100A87982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0CDF490254D4A2100A87982 /* Build configuration list for PBXNativeTarget "Just MilkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CDF491254D4A2100A87982 /* Debug */,
+				F0CDF492254D4A2100A87982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0CDF493254D4A2100A87982 /* Build configuration list for PBXNativeTarget "Just MilkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CDF494254D4A2100A87982 /* Debug */,
+				F0CDF495254D4A2100A87982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0CDF45B254D4A1F00A87982 /* Project object */;
+}
